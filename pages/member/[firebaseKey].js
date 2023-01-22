@@ -18,7 +18,7 @@ export default function ViewMember() {
   return (
     <div className="mt-5 d-flex flex-wrap">
       <div className="d-flex flex-column">
-        <img src={memberDetails.image} alt={memberDetails.title} style={{ width: '300px' }} />
+        <img src={memberDetails.image} alt={memberDetails.image} style={{ width: '300px' }} />
       </div>
       <div className="text-white ms-5 details">
         <h5>
