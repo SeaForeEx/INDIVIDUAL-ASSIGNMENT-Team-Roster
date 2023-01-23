@@ -115,5 +115,14 @@
     "power": "Absorbs and projects all types of energy",
     "team": "X-Men",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMR42R_9CUJKbdnn7jJ": {
+    "firebaseKey": "-NMR42R_9CUJKbdnn7jJ",
+    "image": "https://cdn.bandmix.com/bandmix_us/media/1057/1057068/1113734-l.jpg",
+    "name": "Bass Man",
+    "role": "The Glue",
+    "power": "Afternoon Naps",
+    "team": "X-Men",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   }
 }
