@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 import { viewMemberDetails } from '../../api/mergedData';
 
 export default function ViewMember() {
-  const [memberDetails, setMemberDetails] = useState({});
-  const router = useRouter();
+  const [memberDetails, setMemberDetails] = useState({}); // useState & Effect are react
+  const router = useRouter(); // useRouter is next.js
+
   const { firebaseKey } = router.query;
 
   useEffect(() => {
