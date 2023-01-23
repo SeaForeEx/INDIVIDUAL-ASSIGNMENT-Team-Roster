@@ -17,13 +17,13 @@ const initialState = {
 };
 
 function MemberForm({ obj }) {
-  const [formInput, setFormInput] = useState([]);
+  const [formInput, setFormInput] = useState(initialState);
   const router = useRouter();
   const { user } = useAuth();
 
   useEffect(() => {
     if (obj.firebaseKey) setFormInput(obj);
-  }, [obj, user]);
+  }, [obj]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -37,11 +37,14 @@ function MemberForm({ obj }) {
     e.preventDefault();
     if (obj.firebaseKey) {
       updateMember(formInput)
-        .then(() => router.push(`/member/${obj.firebaseKey}`));
+        .then(() => router.push('/'));
     } else {
       const payload = { ...formInput, uid: user.uid };
-      createMember(payload).then(() => {
-        router.push('/');
+      createMember(payload).then(({ name }) => {
+        const patchPayload = { firebaseKey: name };
+        updateMember(patchPayload).then(() => {
+          router.push('/');
+        });
       });
     }
   };
