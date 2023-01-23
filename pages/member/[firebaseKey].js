@@ -6,11 +6,8 @@ import { viewMemberDetails } from '../../api/mergedData';
 export default function ViewMember() {
   const [memberDetails, setMemberDetails] = useState({});
   const router = useRouter();
-
-  // TODO: grab firebaseKey from url
   const { firebaseKey } = router.query;
 
-  // TODO: make call to API layer to get the data
   useEffect(() => {
     viewMemberDetails(firebaseKey).then(setMemberDetails);
   }, [firebaseKey]);
