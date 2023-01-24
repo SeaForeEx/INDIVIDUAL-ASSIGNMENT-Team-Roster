@@ -5,7 +5,7 @@
     "name": "Cyclops",
     "role": "Leader",
     "power": "Shoots force beams out of his eyes",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2uea6XXq7cuRSFf": {
@@ -14,7 +14,7 @@
     "name": "Beast",
     "role": "Genius",
     "power": "Superhuman agility, strength, and senses",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2ugntsBSGBCf-T0": {
@@ -23,7 +23,7 @@
     "name": "Wolverine",
     "role": "Killer",
     "power": "Adamantium bones and claws, healing factor",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2uibQlCH4vi_RDZ": {
@@ -32,7 +32,7 @@
     "name": "Psylocke",
     "role": "Ninja",
     "power": "Telepathy, psionic projectiles",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2ukWQskLztKRz34": {
@@ -41,7 +41,7 @@
     "name": "Rogue",
     "role": "Muscle",
     "power": "Flight, invulnerability, strength, absorbs memories",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2ul9jLPfvCuXAXk": {
@@ -50,7 +50,7 @@
     "name": "Gambit",
     "role": "Thief",
     "power": "Charges objects with kinetic energy",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2untAGKhz2Rmast": {
@@ -59,7 +59,7 @@
     "name": "Jubilee",
     "role": "The new kid",
     "power": "Generates plasma projectiles",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2up4Ktdln5izcle": {
@@ -68,7 +68,7 @@
     "name": "Storm",
     "role": "Den mother",
     "power": "Controls the weather",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2urR_RRi0gTDQWp": {
@@ -77,7 +77,7 @@
     "name": "Jean Grey",
     "role": "Phoenix",
     "power": "Telekinesis, telepathy",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2ut_UkFAduVBUx8": {
@@ -86,7 +86,7 @@
     "name": "Archangel",
     "role": "Billionaire",
     "power": "Flight, razor-sharp wing projectiles",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2uvi_hlGX4OgjuD": {
@@ -95,7 +95,7 @@
     "name": "Iceman",
     "role": "Comic Relief",
     "power": "Body made of ice",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2ux6MJznzESNavI": {
@@ -104,7 +104,7 @@
     "name": "Colossus",
     "role": "Artist",
     "power": "Transforms body into organic steel",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMLA2v0TEfy-Ni-snSb": {
@@ -113,7 +113,7 @@
     "name": "Bishop",
     "role": "Future Guy",
     "power": "Absorbs and projects all types of energy",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   },
   "-NMR42R_9CUJKbdnn7jJ": {
@@ -122,7 +122,196 @@
     "name": "Bass Man",
     "role": "The Glue",
     "power": "Afternoon Naps",
-    "team": "X-Men",
+    "team_id": "-NMW_uNhN8UTlQkFMgxe",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0Cq4YsrEOwR9tO": {
+    "firebaseKey": "-NMX-i0Cq4YsrEOwR9tO",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/04-f.jpg",
+    "name": "Boomer",
+    "role": "Fashionista",
+    "power": "Creates explosive bombs set to go off in a few seconds",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0GbLctmXbtXLIl": {
+    "firebaseKey": "-NMX-i0GbLctmXbtXLIl",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/05-f.jpg",
+    "name": "Cable",
+    "role": "Leader",
+    "power": "Telekinesis, Bionic body parts",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0J3NRJhdG5TO6Y": {
+    "firebaseKey": "-NMX-i0J3NRJhdG5TO6Y",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/06-f.jpg",
+    "name": "Cannonball",
+    "role": "Small town wisdom",
+    "power": "Creates a blast field that lets him fly",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0MYwFXo9fIC6nW": {
+    "firebaseKey": "-NMX-i0MYwFXo9fIC6nW",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/11-f.jpg",
+    "name": "Domino",
+    "role": "Sidepiece",
+    "power": "Mysterious luck powers",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0Q8Ue8WX_KmCVu": {
+    "firebaseKey": "-NMX-i0Q8Ue8WX_KmCVu",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/26-f.jpg",
+    "name": "Rictor",
+    "role": "Shakes Things Up",
+    "power": "Generates concussive waves of vibration",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0TNXkHOV189u4i": {
+    "firebaseKey": "-NMX-i0TNXkHOV189u4i",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/29-f.jpg",
+    "name": "Shatterstar",
+    "role": "90s Camp",
+    "power": "Converts sound to energy, superhuman strength, agility, stamina, etc.",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0W_6DL4fqDLkKy": {
+    "firebaseKey": "-NMX-i0W_6DL4fqDLkKy",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/30-f.jpg",
+    "name": "Siryn",
+    "role": "Legacy member",
+    "power": "Flight, sonic blasts from vocals",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX-i0b_eDB31n3cb4r": {
+    "firebaseKey": "-NMX-i0b_eDB31n3cb4r",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/33-f.jpg",
+    "name": "Sunspot",
+    "role": "Hothead",
+    "power": "Converts solar energy to super-strength and energy blasts",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX4ALNSE1vxVSu3kUE": {
+    "firebaseKey": "-NMX4ALNSE1vxVSu3kUE",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/34-f.jpg",
+    "name": "Warpath",
+    "role": "Chip on Shoulder",
+    "power": "Superhuman strength and speed",
+    "team_id": "-NMW_uNk9stvwVD1Rh4o",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX4ALQicklN7--gGiR": {
+    "firebaseKey": "-NMX4ALQicklN7--gGiR",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/35-f.jpg",
+    "name": "Wolfsbane",
+    "role": "Spiritual Guidance",
+    "power": "Transforms into wolf and/or wolf/human hybrid",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nkKb8esBUnEKFPT": {
+    "firebaseKey": "-NMX5nkKb8esBUnEKFPT",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/14-f.jpg",
+    "name": "Havok",
+    "role": "Leader",
+    "power": "Fires plasma blasts of cosmic energy",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nkOMkTrn5_mwr5B": {
+    "firebaseKey": "-NMX5nkOMkTrn5_mwr5B",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/19-f.jpg",
+    "name": "Multiple Man",
+    "role": "Population Boost",
+    "power": "Can generate 40 duplicates of himself, each capable of independent thought",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nkRRCQ_j_RBS77H": {
+    "firebaseKey": "-NMX5nkRRCQ_j_RBS77H",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/22-f.jpg",
+    "name": "Polaris",
+    "role": "Jean Grey with Green Hair",
+    "power": "Manipulates magnetic energy in various ways",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nkU2f8qN_YzzV-n": {
+    "firebaseKey": "-NMX5nkU2f8qN_YzzV-n",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/25-f.jpg",
+    "name": "Quicksilver",
+    "role": "Reformed villain",
+    "power": "Super speed (not as fast as The Flash)",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nkXcJrU-n23r91Y": {
+    "firebaseKey": "-NMX5nkXcJrU-n23r91Y",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/32-f.jpg",
+    "name": "Strong Guy",
+    "role": "Mutant Bouncer",
+    "power": "Superhuman strength increased by absorption of kinetic energy",
+    "team_id": "-NMW_uNj7T63g7dK4Cwz",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX5nk_JtUMQ0T5COc-": {
+    "firebaseKey": "-NMX5nk_JtUMQ0T5COc-",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/07-f.jpg",
+    "name": "Captain Britain",
+    "role": "I don't know, imitation Steve Rogers but weird?",
+    "power": "Non-mutant, costume gives powers of flight and enhanced strength",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX8ILIWdhFjwODAc49": {
+    "firebaseKey": "-NMX8ILIWdhFjwODAc49",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/08-f.jpg",
+    "name": "Cerise",
+    "role": "Look, I haven't read many issues of Excalibur, bear with me",
+    "power": "Can create anything from red spectrum projections, mutant?",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX8ILMbUT1FrjMECxK": {
+    "firebaseKey": "-NMX8ILMbUT1FrjMECxK",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/17-f.jpg",
+    "name": "Kylun",
+    "role": "Sabretooth with swords?",
+    "power": "Can imitate any sounds he hears, wields two mystical blades because 90s",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX8ILPnTi-ybKDMpTl": {
+    "firebaseKey": "-NMX8ILPnTi-ybKDMpTl",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/18-f.jpg",
+    "name": "Meggan",
+    "role": "It's a Meggan with two G's!",
+    "power": "Shape-shifting, flight, psionic blasts",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX8ILSEHkFGBagCaGK": {
+    "firebaseKey": "-NMX8ILSEHkFGBagCaGK",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/20-f.jpg",
+    "name": "Nightcrawler",
+    "role": "Leader",
+    "power": "Teleportation, becomes invisible in shadows",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMX8ILWNYtPdva2tx2_": {
+    "firebaseKey": "-NMX8ILWNYtPdva2tx2_",
+    "image": "https://uncannyxmen.net/sites/default/files/images/cards/xmen93/21-f.jpg",
+    "name": "Phoenix",
+    "role": "Worries about the future",
+    "power": "Telekinesis, telepathy at the highest levels",
+    "team_id": "-NMW_uNmwDIsDFJVVxcv",
     "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
   }
 }
