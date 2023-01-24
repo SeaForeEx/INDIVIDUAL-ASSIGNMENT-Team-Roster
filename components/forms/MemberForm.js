@@ -13,7 +13,6 @@ const initialState = {
   role: '',
   power: '',
   team: 'X-Men',
-  firebaseKey: '',
 };
 
 function MemberForm({ obj }) {
@@ -21,11 +20,11 @@ function MemberForm({ obj }) {
   const router = useRouter();
   const { user } = useAuth();
 
-  useEffect(() => {
-    if (obj.firebaseKey) setFormInput(obj);
-  }, [obj]);
+  useEffect(() => { // what happens when the component mounts
+    if (obj.firebaseKey) setFormInput(obj); // if obj prop is true (has a key), form input is set to the object
+  }, [obj]); // if anything in obj changes (user) run it again
 
-  const handleChange = (e) => {
+  const handleChange = (e) => { // handling change of input
     const { name, value } = e.target;
     setFormInput((prevState) => ({
       ...prevState,
@@ -39,7 +38,7 @@ function MemberForm({ obj }) {
       updateMember(formInput)
         .then(() => router.push('/'));
     } else {
-      const payload = { ...formInput, uid: user.uid };
+      const payload = { ...formInput, uid: user.uid }; // spreading object data, appending uid
       createMember(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
         updateMember(patchPayload).then(() => {
@@ -116,5 +115,7 @@ MemberForm.propTypes = {
 MemberForm.defaultProps = {
   obj: initialState,
 };
+
+// work on vocab, explain code
 
 export default MemberForm;
