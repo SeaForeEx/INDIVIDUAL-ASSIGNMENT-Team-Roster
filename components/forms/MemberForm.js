@@ -17,12 +17,15 @@ const initialState = {
 
 function MemberForm({ obj }) {
   const [formInput, setFormInput] = useState(initialState);
-  const router = useRouter();
+  const router = useRouter(); // router travels pages
   const { user } = useAuth();
 
   useEffect(() => { // what happens when the component mounts
     if (obj.firebaseKey) setFormInput(obj); // if obj prop is true (has a key), form input is set to the object
   }, [obj]); // if anything in obj changes (user) run it again
+
+  // useEffect(() => {function callback}, [dependency array])
+  // dependency arrays trigger hook to run when they are changed
 
   const handleChange = (e) => { // handling change of input
     const { name, value } = e.target;
