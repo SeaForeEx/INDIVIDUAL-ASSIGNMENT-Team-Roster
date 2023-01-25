@@ -25,7 +25,6 @@ export default function ViewMember() {
         <p>Role: {memberDetails.role}</p>
         <p>Power: {memberDetails.power}</p>
         <p>Team: {memberDetails.team}</p>
-        {console.warn(memberDetails.team)}
       </div>
     </div>
   );

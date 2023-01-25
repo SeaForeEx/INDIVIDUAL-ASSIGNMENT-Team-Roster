@@ -1,0 +1,30 @@
+{
+  "-NMW_uNhN8UTlQkFMgxe": {
+    "firebaseKey": "-NMW_uNhN8UTlQkFMgxe",
+    "name": "X-Men",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/b/f0/504fcabb26a68/detail.jpg",
+    "location": "1407 Graymalkin Lane",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMW_uNj7T63g7dK4Cwz": {
+    "firebaseKey": "-NMW_uNj7T63g7dK4Cwz",
+    "name": "X-Factor",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/e/30/59540593860d8/clean.jpg",
+    "location": "Muir Island",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMW_uNk9stvwVD1Rh4o": {
+    "firebaseKey": "-NMW_uNk9stvwVD1Rh4o",
+    "name": "X-Force",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/7/40/598092ae857fb/clean.jpg",
+    "location": "Abandoned Sentinel Headquarters",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  },
+  "-NMW_uNmwDIsDFJVVxcv": {
+    "firebaseKey": "-NMW_uNmwDIsDFJVVxcv",
+    "name": "Excalibur",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/6/00/5d0399a7bd021/clean.jpg",
+    "location": "Braddock Lighthouse",
+    "uid": "eQMdNxSG37fpxOpfH3OZuf7jS6O2"
+  }
+}

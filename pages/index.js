@@ -7,12 +7,12 @@ import { useAuth } from '../utils/context/authContext';
 function Home() {
   const [members, setMembers] = useState([]);
   const { user } = useAuth();
-  const getAlltheMembers = () => {
+  const getAllTheMembers = () => {
     getMember(user.uid).then(setMembers);
   };
 
   useEffect(() => {
-    getAlltheMembers();
+    getAllTheMembers();
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -24,8 +24,9 @@ function Home() {
       <div className="text-center my-4">
         <div className="d-flex flex-wrap">
           {members.map((mutant) => (
-            <MemberCard key={mutant.firebaseKey} memberObj={mutant} onUpdate={getAlltheMembers} />
+            <MemberCard key={mutant.firebaseKey} memberObj={mutant} onUpdate={getAllTheMembers} />
           ))}
+          {console.warn(members)}
         </div>
       </div>
     </>
