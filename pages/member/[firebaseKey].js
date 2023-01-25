@@ -24,7 +24,7 @@ export default function ViewMember() {
         </h5>
         <p>Role: {memberDetails.role}</p>
         <p>Power: {memberDetails.power}</p>
-        <p>Team: {memberDetails.teamObject?.team}</p>
+        <p>Team: {memberDetails.teamObject?.name}</p>
       </div>
     </div>
   );
