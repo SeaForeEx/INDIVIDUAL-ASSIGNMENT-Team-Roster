@@ -69,8 +69,8 @@ const deleteSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const getTeamMembers = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/members.json?orderBy="team_id"&equalTo="${firebaseKey}"`, {
+const getTeamMembers = (teamFirebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members.json?orderBy="team_id"&equalTo="${teamFirebaseKey}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

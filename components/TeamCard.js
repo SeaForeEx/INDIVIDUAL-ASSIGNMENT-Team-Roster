@@ -41,6 +41,7 @@ TeamCard.propTypes = {
     firebaseKey: PropTypes.string,
     location: PropTypes.string,
     image: PropTypes.string,
+    uid: PropTypes.string,
   }).isRequired,
   onUpdate: PropTypes.func.isRequired,
 };

@@ -13,7 +13,7 @@ const initialState = {
   name: '',
   role: '',
   power: '',
-  team: '',
+  team_id: '',
 };
 
 function MemberForm({ obj }) {
@@ -136,7 +136,7 @@ MemberForm.propTypes = {
     name: PropTypes.string,
     role: PropTypes.string,
     power: PropTypes.string,
-    team: PropTypes.string,
+    team_id: PropTypes.string,
     firebaseKey: PropTypes.string,
   }),
 };

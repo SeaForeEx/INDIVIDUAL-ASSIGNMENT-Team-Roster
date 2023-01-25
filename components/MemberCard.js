@@ -36,7 +36,11 @@ MemberCard.propTypes = {
   memberObj: PropTypes.shape({
     image: PropTypes.string,
     name: PropTypes.string,
+    power: PropTypes.string,
+    role: PropTypes.string,
+    team_id: PropTypes.string,
     firebaseKey: PropTypes.string,
+    uid: PropTypes.string,
   }).isRequired,
   onUpdate: PropTypes.func.isRequired,
 };
