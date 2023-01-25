@@ -8,7 +8,7 @@ export default function AddMember() {
       <Head>
         <title>Join The X-Men!</title>
       </Head>
-      <MemberForm />;
+      <MemberForm />
     </>
   );
 }
