@@ -26,7 +26,6 @@ function Home() {
           {members.map((mutant) => (
             <MemberCard key={mutant.firebaseKey} memberObj={mutant} onUpdate={getAllTheMembers} />
           ))}
-          {console.warn(members)}
         </div>
       </div>
     </>

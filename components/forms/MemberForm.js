@@ -113,7 +113,7 @@ function MemberForm({ obj }) {
         >
           <option value="">Select a Team</option>
           {
-            teams.map((team) => ( // add ternary before line 107 to not show select author option if there are no authors if you want to
+            teams.map((team) => (
               <option
                 key={team.firebaseKey}
                 value={team.firebaseKey}
