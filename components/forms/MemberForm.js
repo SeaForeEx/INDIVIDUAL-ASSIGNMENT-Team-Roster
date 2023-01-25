@@ -5,6 +5,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 import { useAuth } from '../../utils/context/authContext';
+import { getTeams } from '../../api/teamData';
 import { createMember, updateMember } from '../../api/memberData';
 
 const initialState = {
@@ -12,17 +13,19 @@ const initialState = {
   name: '',
   role: '',
   power: '',
-  team: 'X-Men',
+  team: '',
 };
 
 function MemberForm({ obj }) {
   const [formInput, setFormInput] = useState(initialState);
+  const [teams, setTeams] = useState([]);
   const router = useRouter(); // router travels pages
   const { user } = useAuth();
 
   useEffect(() => { // what happens when the component mounts
+    getTeams(user.uid).then(setTeams);
     if (obj.firebaseKey) setFormInput(obj); // if obj prop is true (has a key), form input is set to the object
-  }, [obj]); // if anything in obj changes (user) run it again
+  }, [obj, user]); // if anything in obj changes (user) run it again
 
   // useEffect(() => {function callback}, [dependency array])
   // dependency arrays trigger hook to run when they are changed
@@ -53,7 +56,7 @@ function MemberForm({ obj }) {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update Info In' : 'Join'} The X-Men</h2>
+      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update Info In' : 'Join'} The Team!</h2>
 
       <FloatingLabel controlId="floatingInput1" label="Code Name" className="mb-3">
         <Form.Control
@@ -90,7 +93,7 @@ function MemberForm({ obj }) {
 
       <FloatingLabel controlId="floatingInput4" label="Image" className="mb-3">
         <Form.Control
-          type="text"
+          type="url"
           placeholder="Give us your Headshot"
           name="image"
           value={formInput.image}
@@ -99,7 +102,30 @@ function MemberForm({ obj }) {
         />
       </FloatingLabel>
 
-      <Button type="submit">{obj.firebaseKey ? 'Update Info In' : 'Join'} The X-Men</Button>
+      <FloatingLabel controlId="floatingSelect" label="Team">
+        <Form.Select
+          aria-label="Team"
+          name="team_id"
+          onChange={handleChange}
+          className="mb-3"
+          value={formInput.team_id}
+          required
+        >
+          <option value="">Select a Team</option>
+          {
+            teams.map((team) => ( // add ternary before line 107 to not show select author option if there are no authors if you want to
+              <option
+                key={team.firebaseKey}
+                value={team.firebaseKey}
+              >
+                {team.name}
+              </option>
+            ))
+          }
+        </Form.Select>
+      </FloatingLabel>
+
+      <Button type="submit">{obj.firebaseKey ? 'Update Info In' : 'Join'} The Team</Button>
     </Form>
   );
 }
