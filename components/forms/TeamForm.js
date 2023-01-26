@@ -39,8 +39,11 @@ function TeamForm({ obj }) {
         .then(() => router.push(`/team/${obj.firebaseKey}`));
     } else {
       const payload = { ...formInput, uid: user.uid };
-      createTeam(payload).then(() => {
-        router.push('/teams');
+      createTeam(payload).then(({ name }) => {
+        const patchPayload = { firebaseKey: name };
+        updateTeam(patchPayload).then(() => {
+          router.push('/teams');
+        });
       });
     }
   };

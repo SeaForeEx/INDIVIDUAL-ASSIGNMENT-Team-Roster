@@ -32,7 +32,6 @@ export default function ViewTeam() {
       </div>
       <hr />
       <div className="d-flex flex-wrap">
-        {console.warn(teamDetails.members)}
         {teamDetails.members?.map((member) => (
           <MemberCard key={member.firebaseKey} memberObj={member} onUpdate={xavierTeamDetails} />
         ))}
