@@ -20,11 +20,11 @@ export default function TeamCard({ teamObj, onUpdate }) {
         <Card.Title>
           {teamObj.name}
         </Card.Title>
-        <Link href={`/author/${teamObj.firebaseKey}`} passHref>
+        <Link href={`/team/${teamObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>
         </Link>
         {/* DYNAMIC LINK TO EDIT THE AUTHOR DETAILS  */}
-        <Link href={`/author/edit/${teamObj.firebaseKey}`} passHref>
+        <Link href={`/team/edit/${teamObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisTeam} className="m-2">
