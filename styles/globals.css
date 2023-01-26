@@ -22,8 +22,11 @@ body {
   color: goldenrod
 }
 
-.yahyah {
-  display: flex !important;
-  align-items: right !important;
-  justify-content: right !important;
+.entrance {
+  background-image: 
+  url("https://blacknerdproblems.com/wp-content/uploads/2019/11/HOUSE_POWER_OF_X_HC-1200x676.jpg");
+  background-size: "cover";
+  height: 100vh;
+  margin-top: -70px;
+  background-repeat:no-repeat; 
 }
