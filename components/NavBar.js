@@ -9,9 +9,9 @@ import { signOut } from '../utils/auth';
 export default function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar-text">
-      <Container>
+      <Container id="x-navbar">
         <Link passHref href="/">
-          <Navbar.Brand><Image src="https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-PNG-Picture.png" alt="X-MEN Logo" width="10%" height="10%" /></Navbar.Brand>
+          <Navbar.Brand><Image src="https://logos-world.net/wp-content/uploads/2022/01/X-Men-Logo-1968-700x394.png" alt="X-MEN Logo" width="15%" height="15%" /></Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -21,13 +21,13 @@ export default function NavBar() {
               <Nav.Link>Members</Nav.Link>
             </Link>
             <Link passHref href="/member/new">
-              <Nav.Link>Join The X-Men</Nav.Link>
+              <Nav.Link>Join</Nav.Link>
             </Link>
             <Link passHref href="/teams">
               <Nav.Link>X-Teams</Nav.Link>
             </Link>
             <Link passHref href="/team/new">
-              <Nav.Link>New X-Team</Nav.Link>
+              <Nav.Link>New Team</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>

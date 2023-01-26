@@ -21,3 +21,9 @@ body {
   background-color: #a00d0d;
   color: goldenrod
 }
+
+.yahyah {
+  display: flex !important;
+  align-items: right !important;
+  justify-content: right !important;
+}

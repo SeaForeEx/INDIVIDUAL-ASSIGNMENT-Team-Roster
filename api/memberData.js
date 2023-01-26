@@ -29,7 +29,6 @@ const getMember = (uid) => new Promise((resolve, reject) => {
       } else {
         resolve([]);
       }
-      console.warn(data);
     }).catch(reject);
 });
 
