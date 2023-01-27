@@ -64,11 +64,11 @@ function VillainForm({ obj }) {
         />
       </FloatingLabel>
 
-      <FloatingLabel controlId="floatingInput2" label="Role" className="mb-3">
+      <FloatingLabel controlId="floatingInput2" label="Power" className="mb-3">
         <Form.Control
           type="text"
           placeholder="What is your Evil Power?"
-          name="role"
+          name="power"
           value={formInput.power}
           onChange={handleChange}
           required
