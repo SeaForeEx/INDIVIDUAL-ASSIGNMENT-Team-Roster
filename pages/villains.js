@@ -24,7 +24,7 @@ export default function ShowVillains() {
       </Head>
       <div className="d-flex flex-wrap">
         {villains.map((villain) => (
-          <VillainCard key={villain.firebaseKey} teamObj={villain} onUpdate={getAllVillains} />
+          <VillainCard key={villain.firebaseKey} villainObj={villain} onUpdate={getAllVillains} />
         ))}
       </div>
     </>
