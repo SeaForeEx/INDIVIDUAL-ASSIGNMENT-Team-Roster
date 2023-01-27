@@ -17,11 +17,6 @@ a {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #a00d0d;
-  color: goldenrod
-}
-
 .entrance {
   background-image: 
   url("https://blacknerdproblems.com/wp-content/uploads/2019/11/HOUSE_POWER_OF_X_HC-1200x676.jpg");
@@ -29,4 +24,20 @@ body {
   height: 100vh;
   margin-top: -70px;
   background-repeat:no-repeat; 
+}
+
+h1 {
+  text-align: center;
+}
+
+.viktorvaughn {
+  background-color: purple;
+  color: hotpink;
+  align-items: center;
+}
+
+body {
+  background-color: #a00d0d;
+  color: goldenrod;
+  align-items: center;
 }
