@@ -1,5 +1,6 @@
 import { getSingleMember, deleteMember } from './memberData';
 import { getTeamMembers, getSingleTeam, deleteSingleTeam } from './teamData';
+import { getSingleVillain } from './villainData';
 
 const viewMemberDetails = (memberFirebaseKey) => new Promise((resolve, reject) => {
   getSingleMember(memberFirebaseKey)
@@ -28,5 +29,14 @@ const deleteTeamMembers = (teamId) => new Promise((resolve, reject) => {
   }).catch((error) => reject(error));
 });
 
+const viewVillainDetails = (villainFirebaseKey) => new Promise((resolve, reject) => {
+  getSingleVillain(villainFirebaseKey)
+    .then((villainObject) => {
+      resolve({ ...villainObject });
+    }).catch((error) => reject(error));
+});
+
 // eslint-disable-next-line import/prefer-default-export
-export { viewMemberDetails, viewTeamDetails, deleteTeamMembers };
+export {
+  viewMemberDetails, viewTeamDetails, deleteTeamMembers, viewVillainDetails,
+};
