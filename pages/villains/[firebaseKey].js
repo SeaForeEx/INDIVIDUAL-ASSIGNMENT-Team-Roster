@@ -22,9 +22,7 @@ export default function ViewVillain() {
         <h5>
           {villainDetails.name}
         </h5>
-        <p>Role: {villainDetails.role}</p>
         <p>Power: {villainDetails.power}</p>
-        <p>Team: {villainDetails.teamObject?.name}</p>
       </div>
     </div>
   );
