@@ -13,7 +13,7 @@ export default function Cerebro() {
 
   const searchAllMembers = () => {
     getMember(user.uid).then((members) => {
-      const filteredMembers = members.filter((member) => member.name.toLowerCase().includes(cerebro));
+      const filteredMembers = members.filter((member) => member.name.toLowerCase().includes(cerebro) || member.role.toLowerCase().includes(cerebro) || member.power.toLowerCase().includes(cerebro));
       setSearchMembers(filteredMembers);
     });
   };
