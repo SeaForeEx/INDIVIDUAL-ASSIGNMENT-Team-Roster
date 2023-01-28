@@ -20,15 +20,15 @@ Only you can Create Read Update and Delete your members and/or teams.
 
 X-Roster Flow Chart (drawn with Excalidraw)
 <br>
-<img src="/X-READMEIMAGES/XRosterFlowChart.jpg" alt="X-Roster Flow Chart" style="width: 300px">
+<img src="/X-READMEIMAGES/XRosterFlowChart.jpg" alt="X-Roster Flow Chart" style="width: 50%">
 <br>
 Code Snippet
 <br>
-<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.jpg" alt="Code Snippet" style="width: 30%">
+<img src="/X-READMEIMAGES/JoinTheXmenCodeSnippet.jpg" alt="Code Snippet" style="width: 50%">
 <br>
 Screenshot
 <br>
-<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.jpg" alt="Screenshot" style="width: 30%">
+<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.jpg" alt="Screenshot" style="width: 50%">
 
 Author: 
 <a href="https://github.com/SeaForeEx">Charles Bridgers IV</a>
@@ -65,4 +65,4 @@ I'd code to the ends of the earth with these guys.
 
 I love being in this cohort.
 
-P.S.: There is a secret page somewhere in this project, a dastardly mystery that I couldn't help but leave to the user to solve and discover on their own...
+P.S.: There is a secret page somewhere in this project, a dastardly mystery that I couldn't help but leave to the user to solve on their own...
