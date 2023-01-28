@@ -20,10 +20,12 @@ X-Roster Flow Chart (drawn with Excalidraw)
 DBDiagram: https://dbdiagram.io/d/63cc27e7296d97641d7b3410
 
 Code Snippet
+<br>
 <img src="/X-READMEIMAGES/JoinTheXmenCodeSnippet.png" alt="Code Snippet" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 Screenshot
-<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Code Snippet" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<br>
+<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Screenshot" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 Loom video: https://www.loom.com/share/a381134f666040f7929672db0f883dc3
 
@@ -32,7 +34,9 @@ Charles Bridgers IV https://github.com/SeaForeEx
 
 Shout outs for rubberducking, troubleshooting, moral support, good conversations, etc:
 Eric Frey https://github.com/ericlfrey
+<br>
 Angie Gonzalez https://github.com/AngieMGonzalez
+<br>
 Ryan Bigelow https://github.com/ryanmbigelow
 
 Shouts to my teachers for answering tickets and pushing me to work harder on this project than ever before!
@@ -48,8 +52,11 @@ DEDE'S NUTS!
 These men have been amazing to work with, our teamwork only grows stronger as we work on projects both group and individual.  We all truly bonded over the last few projects and have come to enjoy helping each other work out coding issues or just listen to each other's life stories.  We cried over tickets or cried until we could laugh no more.
 
 DeAndre Hill https://github.com/Dede-Git
+<br>
 Evan Breland https://github.com/EvgBre
+<br>
 Tyler Eisen https://github.com/Tyler-Eisen
+<br>
 Bruce Clark https://github.com/waynekent10
 
 I'd code to the ends of the earth with these guys.
