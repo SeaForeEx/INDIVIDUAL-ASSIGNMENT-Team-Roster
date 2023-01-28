@@ -19,20 +19,22 @@ Only you can Create Read Update and Delete your members and/or teams.
 <a href="https://www.loom.com/share/a381134f666040f7929672db0f883dc3">Loom</a>
 
 X-Roster Flow Chart (drawn with Excalidraw)
-<img src="/X-READMEIMAGES/XRosterFlowChart.jpg" alt="X-Roster Flow Chart" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<br>
+<img src="/X-READMEIMAGES/XRosterFlowChart.jpg" alt="X-Roster Flow Chart" style="width: 300px">
 <br>
 Code Snippet
 <br>
-<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Code Snippet" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.jpg" alt="Code Snippet" style="width: 30%">
 <br>
 Screenshot
 <br>
-<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Screenshot" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.jpg" alt="Screenshot" style="width: 30%">
 
 Author: 
 <a href="https://github.com/SeaForeEx">Charles Bridgers IV</a>
 
 Shout outs for rubberducking, troubleshooting, moral support, good conversations, etc:
+<br>
 <a href="https://github.com/ericlfrey">Eric Frey</a>
 <br>
 <a href="https://github.com/AngieMGonzalez">Angie Gonzalez</a>
