@@ -12,6 +12,12 @@ Join the X-Men uses Google Authentication to let a user have their own private s
 
 Only you can Create Read Update and Delete your members and/or teams.
 
+My main focus during this project was to do CRUD as much as possible.  The more I kept doing it, the more errors I made, the more ways I learned to trouble shoot.
+
+By the time I finished fixing errors for my villains, I had become way more confident in fixing issues.  When things go wrong, I don't freak out as much, I'm able to breathe and go through possible errors I've made.
+
+Possible errors being Firebase rules, misspelled code words, bad routing (my view/update villains were routed through villain instead of villains), promises that don't patch firebaseKeys to data, etc.
+
 <a href="https://www.figma.com/file/AnNJEWEbe3C3kFRmGW1oNb/Professor-Xavier's-School-For-Gifted-Youngsters?node-id=0%3A1&t=Npid9uo29A4q214r-0">Figma</a>
 
 <a href="https://dbdiagram.io/d/63cc27e7296d97641d7b3410">dbdiagram.io</a>
