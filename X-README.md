@@ -2,7 +2,7 @@
 
 Join the X-Men is an app that was built from the Team Roster App Template.  It is based on the X-Men from the 90s.
 
-Here's the Netlify link: https://join-the-xmen-c4.netlify.app/
+<a href="https://join-the-xmen-c4.netlify.app/">Join The X-Men</a>
 
 Join the X-Men is an App that deals with Teams and Members.  Both of these groups of data are accessed and manipulated on the DOM with full CRUD techniques.
 
@@ -12,32 +12,32 @@ Join the X-Men uses Google Authentication to let a user have their own private s
 
 Only you can Create Read Update and Delete your members and/or teams.
 
-Figma: https://www.figma.com/file/AnNJEWEbe3C3kFRmGW1oNb/Professor-Xavier's-School-For-Gifted-Youngsters?node-id=0%3A1&t=Npid9uo29A4q214r-0
+<a href="https://www.figma.com/file/AnNJEWEbe3C3kFRmGW1oNb/Professor-Xavier's-School-For-Gifted-Youngsters?node-id=0%3A1&t=Npid9uo29A4q214r-0">Figma</a>
+
+<a href="https://dbdiagram.io/d/63cc27e7296d97641d7b3410">dbdiagram.io</a>
+
+<a href="https://www.loom.com/share/a381134f666040f7929672db0f883dc3">Loom</a>
 
 X-Roster Flow Chart (drawn with Excalidraw)
 <img src="/X-READMEIMAGES/XRosterFlowChart.jpg" alt="X-Roster Flow Chart" style="display: inline-block; margin: 0 auto; max-width: 300px">
-
-DBDiagram: https://dbdiagram.io/d/63cc27e7296d97641d7b3410
-
+<br>
 Code Snippet
 <br>
-<img src="/X-READMEIMAGES/JoinTheXmenCodeSnippet.png" alt="Code Snippet" style="display: inline-block; margin: 0 auto; max-width: 300px">
-
+<img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Code Snippet" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<br>
 Screenshot
 <br>
 <img src="/X-READMEIMAGES/JoinTheXmenScreenshot.png" alt="Screenshot" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
-Loom video: https://www.loom.com/share/a381134f666040f7929672db0f883dc3
-
 Author: 
-Charles Bridgers IV https://github.com/SeaForeEx
+<a href="https://github.com/SeaForeEx">Charles Bridgers IV</a>
 
 Shout outs for rubberducking, troubleshooting, moral support, good conversations, etc:
-Eric Frey https://github.com/ericlfrey
+<a href="https://github.com/ericlfrey">Eric Frey</a>
 <br>
-Angie Gonzalez https://github.com/AngieMGonzalez
+<a href="https://github.com/AngieMGonzalez">Angie Gonzalez</a>
 <br>
-Ryan Bigelow https://github.com/ryanmbigelow
+<a href="https://github.com/ryanmbigelow">Ryan Bigelow</a>
 
 Shouts to my teachers for answering tickets and pushing me to work harder on this project than ever before!
 
@@ -51,13 +51,13 @@ DEDE'S NUTS!
 
 These men have been amazing to work with, our teamwork only grows stronger as we work on projects both group and individual.  We all truly bonded over the last few projects and have come to enjoy helping each other work out coding issues or just listen to each other's life stories.  We cried over tickets or cried until we could laugh no more.
 
-DeAndre Hill https://github.com/Dede-Git
+<a href="https://github.com/Dede-Git">DeAndre Hill</a>
 <br>
-Evan Breland https://github.com/EvgBre
+<a href="https://github.com/EvgBre">Evan Breland</a>
 <br>
-Tyler Eisen https://github.com/Tyler-Eisen
+<a href="https://github.com/Tyler-Eisen">Tyler Eisen</a>
 <br>
-Bruce Clark https://github.com/waynekent10
+<a href="https://github.com/waynekent10">Bruce Clark</a>
 
 I'd code to the ends of the earth with these guys.
 
