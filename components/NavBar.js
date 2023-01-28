@@ -4,6 +4,7 @@ import Link from 'next/link';
 import {
   Navbar, Container, Nav, Button, Image,
 } from 'react-bootstrap';
+import Cerebro from './Cerebro';
 import { signOut } from '../utils/auth';
 
 export default function NavBar() {
@@ -32,6 +33,7 @@ export default function NavBar() {
             <Link passHref href="/team/new">
               <Nav.Link>New Team</Nav.Link>
             </Link>
+            <Cerebro />
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
         </Navbar.Collapse>
