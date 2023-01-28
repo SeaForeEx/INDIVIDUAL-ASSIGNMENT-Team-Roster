@@ -17,11 +17,11 @@ function VillainCard({ villainObj, onUpdate }) {
       <Card.Body>
         <Card.Title>{villainObj.name}</Card.Title>
         {/* DYNAMIC LINK TO VIEW THE MEMBER DETAILS  */}
-        <Link href={`/villain/${villainObj.firebaseKey}`} passHref>
+        <Link href={`/villains/${villainObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>
         </Link>
         {/* DYNAMIC LINK TO EDIT THE MEMBER DETAILS  */}
-        <Link href={`/villain/edit/${villainObj.firebaseKey}`} passHref>
+        <Link href={`/villains/edit/${villainObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisVillain} className="m-2">
