@@ -27,7 +27,7 @@ export default function ShowVillains() {
       <h1>Welcome to the Hellfire Club!</h1>
       <Link passHref href="/villains/new">
         <Button variant="outline-warning">
-          Join The Villains
+          Join The Hellfire Club
         </Button>
       </Link>
       <div className="d-flex flex-wrap">
