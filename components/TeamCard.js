@@ -5,6 +5,7 @@ import Link from 'next/link';
 // import { useAuth } from '../utils/context/authContext';
 // import { getAuthors } from '../api/authorData';
 import { deleteTeamMembers } from '../api/mergedData';
+import { useAuth } from '../utils/context/authContext';
 
 export default function TeamCard({ teamObj, onUpdate }) {
   const deleteThisTeam = () => {
@@ -12,6 +13,8 @@ export default function TeamCard({ teamObj, onUpdate }) {
       deleteTeamMembers(teamObj.firebaseKey).then(() => onUpdate());
     }
   };
+
+  const { user } = useAuth();
 
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
@@ -23,13 +26,14 @@ export default function TeamCard({ teamObj, onUpdate }) {
         <Link href={`/team/${teamObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>
         </Link>
-        {/* DYNAMIC LINK TO EDIT THE AUTHOR DETAILS  */}
         <Link href={`/team/edit/${teamObj.firebaseKey}`} passHref>
-          <Button variant="info">EDIT</Button>
+          {teamObj.uid === user.uid ? (<Button variant="info">EDIT</Button>) : ''}
         </Link>
-        <Button variant="danger" onClick={deleteThisTeam} className="m-2">
-          DELETE
-        </Button>
+        {teamObj.uid === user.uid ? (
+          <Button variant="danger" onClick={deleteThisTeam} className="m-2">
+            DELETE
+          </Button>
+        ) : ''}
       </Card.Body>
     </Card>
   );
