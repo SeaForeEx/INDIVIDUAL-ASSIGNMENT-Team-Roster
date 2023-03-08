@@ -32,6 +32,23 @@ const getTeams = (uid) => new Promise((resolve, reject) => {
     }).catch(reject);
 });
 
+const getTeamsWithoutUID = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/teams.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    }).catch(reject);
+});
+
 const getSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${firebaseKey}.json`, {
     method: 'GET',
@@ -83,6 +100,7 @@ const getTeamMembers = (teamFirebaseKey) => new Promise((resolve, reject) => {
 
 export {
   getTeams,
+  getTeamsWithoutUID,
   createTeam,
   getSingleTeam,
   updateTeam,

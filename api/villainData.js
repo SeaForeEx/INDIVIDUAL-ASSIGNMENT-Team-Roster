@@ -32,6 +32,23 @@ const getVillain = (uid) => new Promise((resolve, reject) => {
     }).catch(reject);
 });
 
+const getVillainWithoutUID = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/villains.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    }).catch(reject);
+});
+
 const getSingleVillain = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/villains/${firebaseKey}.json`, {
     method: 'GET',
@@ -72,6 +89,7 @@ const deleteVillain = (firebaseKey) => new Promise((resolve, reject) => {
 export {
   createVillain,
   getVillain,
+  getVillainWithoutUID,
   getSingleVillain,
   updateVillain,
   deleteVillain,

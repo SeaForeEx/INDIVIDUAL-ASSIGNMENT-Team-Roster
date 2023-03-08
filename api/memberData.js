@@ -32,6 +32,23 @@ const getMember = (uid) => new Promise((resolve, reject) => {
     }).catch(reject);
 });
 
+const getMemberWithoutUID = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    }).catch(reject);
+});
+
 const getSingleMember = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/members/${firebaseKey}.json`, {
     method: 'GET',
@@ -72,6 +89,7 @@ const deleteMember = (firebaseKey) => new Promise((resolve, reject) => {
 export {
   createMember,
   getMember,
+  getMemberWithoutUID,
   getSingleMember,
   updateMember,
   deleteMember,
