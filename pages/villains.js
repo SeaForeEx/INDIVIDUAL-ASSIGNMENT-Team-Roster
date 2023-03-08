@@ -2,16 +2,14 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
-import { getVillain } from '../api/villainData';
+import { getVillainWithoutUID } from '../api/villainData';
 import VillainCard from '../components/VillainCard';
-import { useAuth } from '../utils/context/authContext';
 
 export default function ShowVillains() {
-  const { user } = useAuth();
   const [villains, setVillains] = useState([]);
 
   const getAllVillains = () => {
-    getVillain(user.uid).then(setVillains);
+    getVillainWithoutUID().then(setVillains);
   };
 
   useEffect(() => {

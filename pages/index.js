@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import { getMember } from '../api/memberData';
+import { getMemberWithoutUID } from '../api/memberData';
 import MemberCard from '../components/MemberCard';
-import { useAuth } from '../utils/context/authContext';
 
 function Home() {
   const [members, setMembers] = useState([]);
-  const { user } = useAuth();
   const getAllTheMembers = () => {
-    getMember(user.uid).then(setMembers);
+    getMemberWithoutUID().then(setMembers);
   };
 
   useEffect(() => {
