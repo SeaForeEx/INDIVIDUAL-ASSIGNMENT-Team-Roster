@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Button, Card } from 'react-bootstrap';
 import Link from 'next/link';
 import { deleteMember } from '../api/memberData';
+import { useAuth } from '../utils/context/authContext';
 
 function MemberCard({ memberObj, onUpdate }) {
   const deleteThisMember = () => {
@@ -10,6 +11,8 @@ function MemberCard({ memberObj, onUpdate }) {
       deleteMember(memberObj.firebaseKey).then(() => onUpdate());
     }
   };
+
+  const { user } = useAuth();
 
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
@@ -20,13 +23,14 @@ function MemberCard({ memberObj, onUpdate }) {
         <Link href={`/member/${memberObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>
         </Link>
-        {/* DYNAMIC LINK TO EDIT THE MEMBER DETAILS  */}
         <Link href={`/member/edit/${memberObj.firebaseKey}`} passHref>
-          <Button variant="info">EDIT</Button>
+          {memberObj.uid === user.uid ? (<Button variant="info">EDIT</Button>) : ''}
         </Link>
-        <Button variant="danger" onClick={deleteThisMember} className="m-2">
-          DELETE
-        </Button>
+        {memberObj.uid === user.uid ? (
+          <Button variant="danger" onClick={deleteThisMember} className="m-2">
+            DELETE
+          </Button>
+        ) : ''}
       </Card.Body>
     </Card>
   );
